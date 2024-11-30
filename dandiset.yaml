@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001266
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -12,23 +13,111 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 82136604125
-  numberOfFiles: 64
-  numberOfSubjects: 69
+  numberOfBytes: 91295809359
+  numberOfFiles: 70
+  numberOfSubjects: 75
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Park, Pojeong (2024) Dendritic excitations govern back-propagation via a
-  spike-rate accelerometer (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001266/draft
+citation: Park, Pojeong; Wong-Campos, David; Itkis, Daniel G.; Lee, Byung Hun; Qi,
+  Yitong; Davis, Hunter C.; Antin, Benjamin; Grimm, Jonathan B.; Plutkis, Sarah E.;
+  Holland, Katie L.; Paninski, Liam; Lavis, Luke D.; Cohen, Adam E. (2024) Dendritic
+  excitations govern back-propagation via a spike-rate accelerometer (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001266/draft
 contributor:
 - affiliation: []
   email: pojeong_park@fas.harvard.edu
+  identifier: 0000-0002-5574-6104
   includeInCitation: true
   name: Park, Pojeong
   roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: jwongcampos@gmail.com
+  includeInCitation: true
+  name: Wong-Campos, David
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: ditkis@g.harvard.edu
+  identifier: 0009-0003-8948-2260
+  includeInCitation: true
+  name: Itkis, Daniel G.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: byunghun_lee@fas.harvard.edu
+  identifier: 0000-0002-0001-4846
+  includeInCitation: true
+  name: Lee, Byung Hun
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: yitongqi@fas.harvard.edu
+  includeInCitation: true
+  name: Qi, Yitong
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: huntercoledavis@gmail.com
+  includeInCitation: true
+  name: Davis, Hunter C.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: ba2617@cumc.columbia.edu
+  identifier: 0000-0002-3361-985X
+  includeInCitation: true
+  name: Antin, Benjamin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: app2139@columbia.edu
+  includeInCitation: false
+  name: Pasarkar, Amol
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: grimmj@janelia.hhmi.org
+  identifier: 0000-0003-0331-4200
+  includeInCitation: true
+  name: Grimm, Jonathan B.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: plutkiss@janelia.hhmi.org
+  identifier: 0009-0003-1822-0466
+  includeInCitation: true
+  name: Plutkis, Sarah E.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: Katie.Holland@ucsf.edu
+  identifier: 0009-0007-1183-195X
+  includeInCitation: true
+  name: Holland, Katie L.
+  schemaKey: Person
+- email: lmp2107@columbia.edu
+  identifier: 0000-0002-0276-7032
+  includeInCitation: true
+  name: Paninski, Liam
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: lavisl@janelia.hhmi.org
+  identifier: 0000-0002-0789-6343
+  includeInCitation: true
+  name: Lavis, Luke D.
+  schemaKey: Person
+- email: cohen@chemistry.harvard.edu
+  identifier: 0000-0002-8699-2404
+  includeInCitation: true
+  name: Cohen, Adam E.
+  roleName:
+  - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-11-28T04:03:03.990353+00:00'
@@ -36,15 +125,28 @@ description: 'Dendritic voltage imaging was performed in hippocampal brain slice
   V-Optopatch (CAG::LR-Voltron2-p2a-LR-CheRiff-eYFP; Addgene #203228) was expressed
   via in utero electroporation. Voltage imaging was made using JFx608 HTL dye and
   a one-photon microscope.'
+ethicsApproval: []
 id: DANDI:001266/draft
 identifier: DANDI:001266
+keywords:
+- voltage imaging
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001266/versions/draft/assets/
 name: Dendritic excitations govern back-propagation via a spike-rate accelerometer
+protocol: []
+relatedResource:
+- name: Dendritic excitations govern back-propagation via a spike-rate accelerometer
+  relation: dcite:IsPublishedIn
+  repository: BioRxiv
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2023.06.02.543490v3
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001266/draft
 version: draft
+wasGeneratedBy: []
