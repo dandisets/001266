@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 92923840584
-  numberOfFiles: 74
-  numberOfSubjects: 79
+  numberOfBytes: 95439913180
+  numberOfFiles: 80
+  numberOfSubjects: 85
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -120,7 +120,7 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-dateCreated: '2024-11-28T04:03:03.990353+00:00'
+dateCreated: '2024-11-28T04:03:04.033243+00:00'
 description: 'Dendritic voltage imaging was performed in hippocampal brain slices.
   V-Optopatch (CAG::LR-Voltron2-p2a-LR-CheRiff-eYFP; Addgene #203228) was expressed
   via in utero electroporation. Voltage imaging was made using JFx608 HTL dye and
