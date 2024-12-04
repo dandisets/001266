@@ -121,15 +121,20 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-11-28T04:03:04.033243+00:00'
-description: 'Dendritic voltage imaging was performed in hippocampal brain slices.
+description: 'Dendritic voltage imaging was performed in mouse hippocampal brain slices.
   V-Optopatch (CAG::LR-Voltron2-p2a-LR-CheRiff-eYFP; Addgene #203228) was expressed
   via in utero electroporation. Voltage imaging was made using JFx608 HTL dye and
-  a one-photon microscope.'
+  a one-photon microscope. Please see Source Data File on the publication website
+  for an index mapping files on DANDI to paper figure panels.
+
+  '
 ethicsApproval: []
 id: DANDI:001266/draft
 identifier: DANDI:001266
 keywords:
 - voltage imaging
+- V-Optopatch
+- dendrite biophysics
 license:
 - spdx:CC0-1.0
 manifestLocation:
