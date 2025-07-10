@@ -16,7 +16,7 @@ assetsSummary:
   measurementTechnique: []
   numberOfBytes: 97094228036
   numberOfFiles: 84
-  numberOfSubjects: 87
+  numberOfSubjects: 81
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -26,8 +26,8 @@ assetsSummary:
 citation: Park, Pojeong; Wong-Campos, David; Itkis, Daniel G.; Lee, Byung Hun; Qi,
   Yitong; Davis, Hunter C.; Antin, Benjamin; Grimm, Jonathan B.; Plutkis, Sarah E.;
   Holland, Katie L.; Paninski, Liam; Lavis, Luke D.; Cohen, Adam E. (2025) Dendritic
-  excitations govern back-propagation via a spike-rate accelerometer (Version 0.250106.0948)
-  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001266/0.250106.0948
+  excitations govern back-propagation via a spike-rate accelerometer (Version 0.250710.0758)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001266/0.250710.0758
 contributor:
 - affiliation: []
   email: pojeong_park@fas.harvard.edu
@@ -122,17 +122,25 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-11-28T04:03:04.033243+00:00'
-datePublished: '2025-01-06T09:48:52.732190+00:00'
-description: "These data are described in: https://doi.org/10.1038/s41467-025-55819-9.\
-  \  Dendritic voltage imaging was performed in mouse hippocampal brain slices. Optopatch-V
+datePublished: '2025-07-10T07:58:08.013433+00:00'
+description: 'These data are described in: https://doi.org/10.1038/s41467-025-55819-9.
+  Dendritic voltage imaging was performed in mouse hippocampal brain slices. Optopatch-V
   (CAG::LR-Voltron2-p2a-LR-CheRiff-eYFP; Addgene #203228) was expressed via in utero
-  electroporation. The voltage indicator was loaded with JFx608 HTL dye.  Voltage
-  imaging and targeted optogenetic stimulation were performed on a custom one-photon
-  microscope. Please see Source Data File on the Nature Communications website for
-  an index mapping files on DANDI to paper figure panels.\n"
-doi: 10.48324/dandi.001266/0.250106.0948
+  electroporation. The voltage indicator was loaded with JFx608 HTL dye. Voltage imaging
+  and targeted optogenetic stimulation were performed on a custom one-photon microscope.
+  Please see Source Data File on the Nature Communications website for an index mapping
+  files on DANDI to paper figure panels. To clarify the patch clamp amplifier settings
+  used in this dataset: Daq_aof_channel_2 represents the command voltage sent from
+  the DAQ to the amplifier, with a sensitivity of 400 pA/V. For example, 1 V in this
+  trace corresponds to a 400 pA current injection. Daq_aif_channel_2 shows the feedback
+  signal from the amplifier, configured at 2 nA/V, so 0.2 V also corresponds to 400 pA.
+  These two signals should therefore indicate the same injected current. For membrane
+  voltage traces (Daq_aif_channel_1), the amplifier gain was set to 50 mV/V. This
+  means that a raw signal ranging from –1.5 to +1.0 V corresponds to an actual membrane
+  potential of –75 mV to +50 mV.'
+doi: 10.48324/dandi.001266/0.250710.0758
 ethicsApproval: []
-id: DANDI:001266/0.250106.0948
+id: DANDI:001266/0.250710.0758
 identifier: DANDI:001266
 keywords:
 - voltage imaging
@@ -141,17 +149,16 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001266/0.250106.0948/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/001266/0.250710.0758/assets.yaml
 name: Dendritic excitations govern back-propagation via a spike-rate accelerometer
-protocol: []
 publishedBy:
-  endDate: '2025-01-06T09:48:52.732190+00:00'
-  id: urn:uuid:7ae41e08-705f-43a3-a399-1ccae55bcd4a
+  endDate: '2025-07-10T07:58:08.013433+00:00'
+  id: urn:uuid:0e8ad053-3732-44f0-a0ce-0c74006871d3
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-01-06T09:48:52.732190+00:00'
+  startDate: '2025-07-10T07:58:08.013433+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:48051a03-a897-484b-99b1-73536e152764
+  - id: urn:uuid:fcdb5507-ae7b-4008-a80d-8d090f31a636
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -171,7 +178,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
-url: https://dandiarchive.org/dandiset/001266/0.250106.0948
-version: 0.250106.0948
+url: https://dandiarchive.org/dandiset/001266/0.250710.0758
+version: 0.250710.0758
 wasGeneratedBy: []
